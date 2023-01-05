@@ -118,3 +118,27 @@ width: 100%;
     display: flex;
     justify-content: center;
 }
+.nav{
+    display: flex;
+    color: white;
+    position: absolute;
+    font-size: 20px;
+    gap: 12px;
+    text-decoration: none;
+}
+.nav1{
+    text-decoration: none;
+    color: white;
+}
+.nav2{
+    text-decoration: none;
+    color: white;
+}
+.nav3{
+    text-decoration: none;
+    color: white;
+}
+.nav4{
+    text-decoration: none;
+    color: white;
+}
