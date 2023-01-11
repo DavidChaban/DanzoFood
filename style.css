@@ -80,7 +80,7 @@ object-fit: cover;
 .img-sushi1{
     margin-top: 22rem;
     width: 100%;
-    height: 56.9vh;
+    height: 73.9vh;
 
 }
 .p-botton{
@@ -143,9 +143,19 @@ object-fit: cover;
 }
 
 .section-1{
+   
+    margin-top: 20rem;
+}
+.title-h5{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 15rem;
+    font-size: 30px;
+}
+.p-h3-section{
+    margin: 10px;
+    justify-content: center;
+   
+    font-size: 21px;
 }
