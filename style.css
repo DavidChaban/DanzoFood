@@ -10,8 +10,10 @@
     justify-content: center;
     text-align: center;
     flex-direction: column;
-     font-size: 45px;
+     /* font-size: 45px; */
     color: white;
+    font-size: 5rem;
+    font-family: cursive;
 
 }
 main{
@@ -44,7 +46,7 @@ background-color: black;
     height: 23.6vh;
     align-items: center;
     justify-content: center;
-    flex-direction: row-reverse;
+    /* flex-direction: row-reverse; */
 }
 
 
@@ -65,13 +67,14 @@ object-fit: cover;
     flex-direction: column;
     margin-top: 60px;
     align-items: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
     font-size: 19px;
     color: white;
     position: absolute;
     /* max-width: 75ch; */
     left: 45rem;
-    
+    font-family: system-ui;
+    font-weight: 500;
 
 }
 .img-container{
@@ -115,6 +118,7 @@ object-fit: cover;
     display: flex;
     justify-content: center;
     font-size: 39px;
+    font-family: cursive;
 
 
 }
@@ -170,6 +174,18 @@ object-fit: cover;
    
     padding: 5px;
 }
+.nav1:hover{
+    color: gold;
+}
+.nav2:hover{
+    color: gold;
+}
+.nav3:hover{
+    color: gold;
+}
+.nav4:hover{
+    color: gold;
+}
 
 .section-1{
    
@@ -181,6 +197,7 @@ object-fit: cover;
     justify-content: center;
     align-items: center;
     font-size: 30px;
+    font-family: cursive;
 }
 .p-h3-section{
     margin: 10px;
@@ -227,20 +244,19 @@ object-fit: cover;
     margin-top: 4.3rem;
     margin-right: 4rem;
     border-radius: 36px;
+   
 
 }
-.container-pyim{
+.container-pyim {
     display: flex;
       border: 2px solid #002380;
       /* padding: 55px; */
       background-color: #0000ff69;
-
-
-
+    width: 61rem;
       /* margin: 10px 10px; */
       justify-content: center;
-      font-size: 21px;
-      width: 61rem;
+      /* width: 61rem; */
+    
 }
 .h3-tittle{
     font-family: Arial, Helvetica, sans-serif;
@@ -318,7 +334,7 @@ object-fit: cover;
 /*=========================================================*/
 
 /*=========================================================*/
-@media (min-width: 320px) {
+/* @media (min-width: 320px) {
 
 
     .p-botton{
@@ -328,25 +344,21 @@ object-fit: cover;
     }
     .title-h5{
         font-size: 14px;
-    }
-    .container-pyim{
+    } */
+    /* .container-pyim{
         width: 16%;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-content: center;
         align-items: center;
-    }
-    .p-h3-section{
-        /* margin: 10px; */
+    } */
+    /* .p-h3-section{
+    
         justify-content: center;
         font-size: 21px;
         width: 14rem;
-        /* border: 2px solid #002380; */
-        /* padding: 55px; */
-        /* background-color: #0000ff69; */
         font-family: Arial, Helvetica, sans-serif;
-        /* margin-left: 30rem; */
         font-size: 10px;
     }
     .img-n{
@@ -356,11 +368,11 @@ object-fit: cover;
         align-content: center;
         align-items: center;
         flex-direction: column;
-        /* margin-top: 4.3rem;
-        margin-right: 49rem; */
+        margin-top: 4.3rem;
+        margin-right: 49rem;
         border-radius: 36px;
-    }
-    .img-nosotros{
+    } */
+    /* .img-nosotros{
         display: flex;
         margin: 0px;
         padding: 0px;
@@ -399,17 +411,10 @@ object-fit: cover;
 }
 
 
-}
-
-
-/* @media (max-width: 300px) {
-
-    .tittle-h5{
-        font-size: 14px;
-    }
-
-
 } */
+
+
+
 
 
 
@@ -431,9 +436,57 @@ object-fit: cover;
 } */
 
 
+ @media (max-width: 320px) {
 
 
+    .p-botton{
+        margin-left: -45.5rem;
+         position: absolute;
+         
+    }
+    .title-h5{
+        font-size: 14px;
+    } 
+     .container-pyim{
+        width: 16%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    } 
+     .p-h3-section{
+    
+        justify-content: center;
+        font-size: 21px;
+        width: 14rem;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 10px;
+    }
+    .img-n{
+        width: 195px;
+        justify-content: center;
+        display: flex;
+        align-content: center;
+        align-items: center;
+        flex-direction: column;
+        /* margin-top: 4.3rem;
+        margin-right: 49rem; */
+        border-radius: 36px;
+    } 
+     .img-nosotros{
+        display: flex;
+        margin: 0px;
+        padding: 0px;
+        width: 14rem;
+    }
+    .title-h5{
+        font-size: 14px;
+        width: 1rem;
+    }
 
+    
+    }
 
 
 
