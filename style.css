@@ -22,8 +22,24 @@ main{
 
 }
 footer{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    text-align:center;
+    align-items:center;
     background-color: yellow;
-    height: 15vh;
+    height: 20vh;
+    width:100%;
+    background-color:blue;
+    margin-top:2.5rem;
+    color:azure;
+
+}
+.footer-container{
+    display:flex;
+    justify-content:center;
+    text-align:center;
+    width:100%;
 }
 .logo1{
     /* width: 40px;
@@ -176,6 +192,7 @@ object-fit: cover;
 }
 .nav1:hover{
     color: gold;
+    
 }
 .nav2:hover{
     color: gold;
