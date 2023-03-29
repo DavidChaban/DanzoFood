@@ -27,7 +27,7 @@ main{
     width:417px;
     height:28vh;
     border-radius:20px;
-  
+    position:absolute;
 }
 .foto-suchi:hover{
    /* filter:blur(5px); */
@@ -41,7 +41,8 @@ main{
     width:417px;
     height:28vh;
     border-radius:20px;
- 
+    position:absolute;
+  
  
 }
 .foto-suchi2:hover{
@@ -56,6 +57,10 @@ main{
     width:417px;
     height:28vh;
     border-radius:20px;
+    position:absolute;
+ 
+    
+
 }
 .foto-suchi3:hover{
     /* filter:blur(5px); */
@@ -365,8 +370,16 @@ main{
     display:flex;
     justify-content:center;
     align-items:center;
-    background-image: url("./img/pulpo.jpg")
+
     
+}
+.sus-10{
+    /* background-repeat: no-repeat; */
+    width:100%;
+    position:absolute;
+    margin-top:31rem;
+
+ 
 }
 
 .titulo-carta{
