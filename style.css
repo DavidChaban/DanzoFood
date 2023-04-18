@@ -401,9 +401,15 @@ main{
     font-size:40px;
 }
 
+.carousel-inner{
+    display:flex;
+    gap:60px;
 
+}
+.carousel-item active{
+    margin-right: 16rem;
 
-
+}
 
 
 
