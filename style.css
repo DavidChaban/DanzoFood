@@ -201,7 +201,7 @@ object-fit: cover;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 226px;
+    width: 256px;
     padding: 6px;
     border: 1px solid red;
     border-radius: 7px;
@@ -211,7 +211,16 @@ object-fit: cover;
     font-size: 20px;
     cursor: pointer;
     margin-left: 3rem;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
 
+}
+.p-botton:hover{
+    background-color: orangered;
+    color: rgb(3, 176, 250);
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 15.5rem;
 }
 .enlace1{
     text-decoration: none;
