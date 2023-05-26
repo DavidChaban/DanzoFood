@@ -405,19 +405,16 @@ main{
 }
 
 .section-h5-comments{
-    display: flex;
-    justify-content: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 40px;
-    color: goldenrod;
-    background-color: rgb(41, 31, 31);
-    font-size: 50px;
     position: absolute;
     display: flex;
     justify-content: center;
-    align-items: center;
-    /* align-content: center; */
-    margin-left: 45rem;
+    margin-left: 35rem;
+    padding: 0px 0px 9px;
+    font-weight: 400;
+    font-size: 17px;
+    color: grey;
+    margin-top: 2px;
+
 }
 
 .carousel-inner{
@@ -434,7 +431,7 @@ main{
 /*  sdsd */
 .comments-container {
     width: 800px;
-    margin: 0 auto;
+    margin: 35px auto;
   }
   .comments-container > .comment {
     margin-bottom: 10px;
@@ -523,10 +520,44 @@ main{
     background-color: #558bff;
   }
 
+.section-comentarios{
+    margin-top: 40rem;
+}
+.input-comentss{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 71rem;
+}
 
-
-
-
+.sh5{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+.hr1{
+    width:43%;
+    margin-left: 34.95rem;
+    margin-top: -31.9px;
+    color: rgb(170, 168, 168);
+}
+select{
+    border: 0px;
+    margin-left: 1rem;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+.user2{
+    width: 43px;
+    margin-left: 31rem;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+select .option-order{
+    font-weight: bolder;
+    color: black;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
 
 
 /*=========================================================*/
