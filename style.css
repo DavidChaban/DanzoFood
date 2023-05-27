@@ -387,7 +387,8 @@ main{
     /* background-repeat: no-repeat; */
     width:100%;
     position:absolute;
-    margin-top:31rem;
+    /* margin-top:31rem; */
+    height: 150vh;
 
  
 }
@@ -395,9 +396,11 @@ main{
 .titulo-carta{
     display:flex;
     justify-content:center;
-    color:white;
+    color:red;
     font-family: Arial, Helvetica, sans-serif;
     font-size:60px;
+    position: absolute;
+    z-index: 2;
 }
 .carousel-inner{
     overflow:hidden;
@@ -432,6 +435,7 @@ main{
 .comments-container {
     width: 800px;
     margin: 35px auto;
+  
   }
   .comments-container > .comment {
     margin-bottom: 10px;
@@ -521,7 +525,9 @@ main{
   }
 
 .section-comentarios{
-    margin-top: 40rem;
+    /* margin-top: 40rem; */
+    background-color: azure;
+    padding: 80px 0px 0px 0px;
 }
 .input-comentss{
     display: flex;
@@ -559,7 +565,20 @@ select .option-order{
     font-size: 20px;
 }
 
-
+.menu-container{
+    /* width: 100%;
+    margin-bottom: 80.6rem; */
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.menu-title{
+    margin-bottom: 18rem;
+    margin-left: 32rem;
+     
+}
 /*=========================================================*/
 
 /*=========================================================*/
