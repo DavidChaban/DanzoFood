@@ -379,16 +379,17 @@ object-fit: cover;
 main{
     display:flex;
     justify-content:center;
-    align-items:center;
+    /* align-items:center; */
 
     
 }
 .sus-10{
     /* background-repeat: no-repeat; */
-    width:100%;
-    position:absolute;
-    /* margin-top:31rem; */
-    height: 150vh;
+    width: 100%;
+    position: absolute;
+    /* margin-top: 31rem; */
+    height: 100vh;
+    object-fit: cover;
 
  
 }
@@ -572,8 +573,8 @@ select .option-order{
     margin-bottom: 80.6rem; */
     display: flex;
     flex-direction: column;
-    align-content: center;
-    justify-content: center;
+    /* align-content: center;
+    justify-content: center; */
     align-items: center;
 }
 .menu-title{
