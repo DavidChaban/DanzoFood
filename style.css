@@ -396,12 +396,14 @@ main{
 .titulo-carta{
     display:flex;
     justify-content:center;
-    color:red;
+    color:white;
+    text-transform: uppercase;
     font-family: Arial, Helvetica, sans-serif;
     font-size:60px;
     position: absolute;
     z-index: 2;
 }
+
 .carousel-inner{
     overflow:hidden;
     border-radius:20px ;
